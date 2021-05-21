@@ -5,11 +5,7 @@
 }  
 
 
-   header
-
-
-    {
-
-
-        background-image:url(Picture\ of\ AB.png);
+   header{
+       background-image:url(Picture\ of\ AB.png);
+       height:100vh;
     }
