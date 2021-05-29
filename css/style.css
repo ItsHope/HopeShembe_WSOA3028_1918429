@@ -8,12 +8,11 @@ header{
     background-color: white;
 }
 body{
-    
     margin: 0;
     padding: 0;
     background: linear-gradient(
-        #243545,
-        #243545 var(--line-offset),
+        #3f8039,
+        #3b8551 var(--line-offset),
         #dedede var(--line-offset)
     );
     width: 100vw;
