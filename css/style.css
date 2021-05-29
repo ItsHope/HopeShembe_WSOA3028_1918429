@@ -11,8 +11,8 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(
-        #3f8039,
-        #3b8551 var(--line-offset),
+        #3f803900,
+        #3b855100 var(--line-offset),
         #dedede var(--line-offset)
     );
     width: 100vw;
@@ -21,8 +21,8 @@ body{
     color:black;
 
     --menu-item-size: 50px;
-    --green-color: #0c8f4d;
-    --darker-green-color: #089938;
+    --green-color: #0c8f4e00;
+    --darker-green-color: #08993800;
     --dark-green-color: #0da84e;
     --white-color: #FFF;
     --gray-color: #EDEDED;
