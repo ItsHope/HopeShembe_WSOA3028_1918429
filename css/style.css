@@ -21,9 +21,9 @@ body{
     color:black;
 
     --menu-item-size: 50px;
-    --green-color: #29aa6a;
-    --blue-color: #099c5f;
-    --dark-green-color: #067434;
+    --green-color: #0c8f4d;
+    --darker-green-color: #047445;
+    --dark-green-color: #0da84e;
     --white-color: #FFF;
     --gray-color: #EDEDED;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
@@ -45,7 +45,7 @@ body{
     padding: 0 2em;
     margin: 1px;
     transition: 0.5s linear all;
-    background: var(--green-color);
+    background: var(--darker-green-color);
     color: var(--dark-green-color);
     cursor: pointer;
     font-size: 16px;
