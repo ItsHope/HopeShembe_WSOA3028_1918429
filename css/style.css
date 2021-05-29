@@ -23,7 +23,7 @@ body{
     --menu-item-size: 50px;
     --green-color: #0c158f;
     --darker-green-color: #12682f;
-    --dark-green-color: #0da84e;
+    --black-color: #010804;
     --white-color: #FFF;
     --gray-color: #EDEDED;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
