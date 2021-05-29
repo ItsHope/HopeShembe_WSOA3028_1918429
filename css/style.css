@@ -148,6 +148,9 @@ h1 {
 .subbar> li:active {
     background: var(--white-color);
 }
+ footer{
+     background-color:black;
+ }
 
 
 
