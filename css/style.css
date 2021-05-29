@@ -28,21 +28,9 @@ body{
     --dark-green-color: #175b52;
     --white-color: #FFF;
     --gray-color: #EDEDED;
-    --container-width: 700px;
-    --container-height: 400px;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
 }
 
-.container {
-    width: var(--container-width);
-    height: var(--container-height);
-    margin-left: -350px;
-    margin-top: -200px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    z-index: 1;
-}
 
 .main-bar {
     display: flex;
@@ -117,7 +105,7 @@ h1 {
     margin: 1em 2em;
     padding: 0;
     position: relative;
-    color: #777;
+    color:black;
 }
 
 
@@ -148,7 +136,7 @@ h1 {
 .subbar > li {
     background: #dedede;
     border-bottom: 1px solid var(--gray-color); 
-    color: #777;
+    color:black;
     padding: 1.2em 1em;
     transition: 0.3s all linear;
     display: block;
