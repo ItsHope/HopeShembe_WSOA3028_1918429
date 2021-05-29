@@ -21,9 +21,9 @@ body{
     color:black;
 
     --menu-item-size: 50px;
-    --green-color: #329680;
-    --blue-color: #099c95;
-    --dark-green-color: #175b52;
+    --green-color: #29aa6a;
+    --blue-color: #099c5f;
+    --dark-green-color: #067434;
     --white-color: #FFF;
     --gray-color: #EDEDED;
     --line-offset: calc((100% - var(--container-height))/ 2 + var(--menu-item-size) + 0.6em);
