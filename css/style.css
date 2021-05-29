@@ -12,7 +12,7 @@ body{
     padding: 0;
     background: linear-gradient(
         #3f803900,
-        #3b855100 var(--line-offset),
+        #3b85513f var(--line-offset),
         #dedede var(--line-offset)
     );
     width: 100vw;
