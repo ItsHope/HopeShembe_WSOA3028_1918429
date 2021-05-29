@@ -151,6 +151,9 @@ h1 {
  footer{
      background-color:black;
      color: white;
+     position:absolute;
+     bottom:0;
+     
  }
 
 
