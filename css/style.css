@@ -12,16 +12,16 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(
-        #3f8039,
-        #3b8551 var(--line-offset),
-        #4b8119 var(--line-offset)
+        #328a2a,
+        #169e3f var(--line-offset),
+        #4f8a19 var(--line-offset)
     );
     width: 100vw;
     height: 100vh;
     color:black;
 
     --menu-item-size: 50px;
-    --green-color: #0c8f43;
+    --green-color: #0fa54e;
     --darker-green-color: #1e9446;
     --black-color: #010804;
     --white-color: #FFF;
@@ -153,7 +153,7 @@ h1 {
      color:black;
      position:absolute;
      bottom:0;
-     right:50%;
+     right:55%;
      
  }
 
