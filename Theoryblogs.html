@@ -85,7 +85,7 @@ body,html{
 
 <body>
 
-    <button class="tablink" onclick="openPage('BlogOne', this, 'grey')">BlogOne</button>
+    <button class="tablink" onclick="openPage('BlogOne', this, 'grey')" id="defaultOpen">BlogOne</button>
     <button class="tablink" onclick="openPage('BlogTwo', this, 'green')">BlogTwo</button>
     <button class="tablink" onclick="openPage('BlogThree', this, 'black')">BlogThree</button>
     <button class="tablink" onclick="openPage('BlogFour', this, 'rgb(4, 46, 6) ')">BlogFour</button>
@@ -600,6 +600,8 @@ be possible, an insight of what, its uses and how metadata can be used was given
     </article>
 
 
+
+
 <script type="text/javascript">
    function openPage(pageName, elemnt, color){
        var i, tabcontent, tablinks;
@@ -616,7 +618,8 @@ be possible, an insight of what, its uses and how metadata can be used was given
        document.getElementById(pageName).style.display = "block";
        elemnt.style.backgroundColor = color;
    }
-
+ 
+   document.getElementById("defaultOpen").click();
 
 </script>
 
