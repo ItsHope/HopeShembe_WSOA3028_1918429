@@ -151,9 +151,8 @@ h1 {
  footer{
      background-color:white;
      color:black;
-     position:absolute;
-     bottom:0;
-     right:40%;
+     text-align: center;
+    
      padding: 50x;
     
      
