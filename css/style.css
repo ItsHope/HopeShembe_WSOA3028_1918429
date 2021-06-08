@@ -173,8 +173,9 @@ main{
     color:black;
     text-align: center;
     padding: 20px;
-    width:50%;
+    width:80%;
     margin: 0 auto;
+    position: absolute;
  }
 
 
