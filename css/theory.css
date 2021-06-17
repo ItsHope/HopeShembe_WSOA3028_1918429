@@ -1,3 +1,9 @@
+body{
+    background-image: url("pexels-asa-dugger-1897590.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .title {
     font-family:sans-serif;
     color:darkgreen;
