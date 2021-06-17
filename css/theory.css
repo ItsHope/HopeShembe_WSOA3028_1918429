@@ -23,6 +23,19 @@
 
 }
 
+#navigation #logo {
+  font-size: 10px;
+  font-weight: bold;
+  transition: 0.4s;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+    
+
+
 
 
 .title {
