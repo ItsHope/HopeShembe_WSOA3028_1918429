@@ -2,7 +2,28 @@
 #navigation {
     overflow: hidden;
     background-color:white;
-    padding: 99px 5px;
+    padding: 10px 5px;
+    transition: 0.4s;
+    position:fixed; 
+    width: 100%;
+    top:0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#menu ul li {
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+
 }
 
 .title {
