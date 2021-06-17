@@ -1,4 +1,10 @@
 
+#navigation {
+    overflow: hidden;
+    background-color: black;
+    padding: 90px 10px;
+}
+
 .title {
     font-family:sans-serif;
     color:darkgreen;
