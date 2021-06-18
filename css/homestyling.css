@@ -170,9 +170,9 @@ main{
 
  #right{
     position: absolute;
-    top: 80px;
-
- }
+    bottom: 80px;
+    right: 10px;
+}
 
  h1{
     background-color:white;
