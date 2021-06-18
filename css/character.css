@@ -3,12 +3,15 @@
     width: 50px
 }
 
+.img-box img{
+    width: 100%;
+}
 
 .btn {
     border: none;
     outline:none;
     background: rgb(138, 170, 152);
-    padding:10px 30px;
+    
     font-size: 20px;
     color: black;
     cursor: pointer;
