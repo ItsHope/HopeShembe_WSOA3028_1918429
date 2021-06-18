@@ -1,20 +1,16 @@
-
-
-
-.btn {
-    border: none;
-    outline:none;
-    background: rgb(138, 170, 152);
-    font-size: 20px;
-    color: black;
-    cursor: pointer;
-    margin:10px auto;
-
-
+.slider{
+    max-width: 700px;
+    border:10px solid white;
+    margin: 50px auto;
 }
-.btn:hover {
-    background: rgb(238, 238, 238);
+
+.slider .slider-items .items img{
+    display: block;
 }
+
+
+
+
 
 
 #navigation {
