@@ -12,6 +12,9 @@
 
 
 }
+.btn:hover {
+    background: rgb(238, 238, 238);
+}
 
 
 #navigation {
