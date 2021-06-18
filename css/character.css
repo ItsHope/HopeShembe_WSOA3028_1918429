@@ -1,3 +1,39 @@
+#navigation {
+    overflow: hidden;
+    background-color:white;
+    padding: 20px 10px;
+    transition: 0.4s;
+    position:fixed; 
+    height: 40px;
+    width: 100%;
+    top:0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#navigation a:hover{
+    background-color:rgb(21, 126, 21) ;
+    color: white;
+
+}
+
+#navigation #logo {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+  text-decoration: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
 *{
     box-sizing: border-box;
 
