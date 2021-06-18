@@ -12,6 +12,6 @@ function scrollFunction() {
 
     else {
         navigation.style.padding = " 20px 10px";
-        logo.style.fontSize= "30px"
+        logo.style.fontSize= "30px";
     }
 }
