@@ -1,18 +1,27 @@
-var slider_img = document.querySelector(".slider-img");
-var images = ["Zoo1.jpg", "Zoo2.jpg", "Zoo3.jpg"];
-var i= 0;
+var slides=document.querySelector('.slider-items').children;
+  var  nextSlide=document.querySelector(".right-slide");
+  var  prevSlide=document.querySelector(".left-slide");
 
-function prev(){
-  if(i<= 0 ) i = images.length;
-  i--;
-  return setImg();
+  var totalSlides = slides.length;
+  var index=0;
 
-}
+  nextSlide.onclick= function () {
+      next("next");
+  }
 
-function next(){
+  prevSlide.onclick=function () {
+      next("prev");
+  }
 
-}
-
-function setImg() {
-    return slider_img.setAttribute("src", "images/"+ images[i]);
-}
+  function next(direction){
+      if(direction == "next"){
+          index++;
+          if(index==totalSlides) {
+              index=0;
+          }
+      }
+        for(i=0;i<slides.length;i++){
+            slides[i].classList.remove("active");
+        }
+      slides[index].classList.add("active");
+  }
