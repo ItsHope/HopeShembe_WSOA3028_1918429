@@ -4,7 +4,7 @@ const logo = document.getElementById('logo')
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if(document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
         navigation.style.padding = "10px 5px";
         logo.style.fontSize= "15px";
 
