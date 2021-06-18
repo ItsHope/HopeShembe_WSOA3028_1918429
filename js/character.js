@@ -1,0 +1,1 @@
+let slider_img = document.querySelector(".slider-img");
