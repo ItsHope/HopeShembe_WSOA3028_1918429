@@ -169,8 +169,8 @@ main{
  }
 
  #right{
-   bottom: 10px;
-   float: right;
+    position: absolute;
+    top: 80px;
 
  }
 
