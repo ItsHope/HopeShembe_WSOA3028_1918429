@@ -95,7 +95,10 @@ body{
     font-size: 18px;
 }
 
-
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
 
 h1 {
     font-size: 115%;
