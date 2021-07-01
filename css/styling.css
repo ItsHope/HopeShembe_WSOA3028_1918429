@@ -124,7 +124,7 @@ ul li:hover {
      font-weight: 600;
      text-align: center;
      line-height: 60px;
-     cursor: pointer;
+     cursor: default;
      z-index: 20;
  }
 
