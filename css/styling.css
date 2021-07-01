@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+.container {
+    height: 100%;
+    background-image: url("/pexels-asa-dugger-1897590\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+    
+
+
+}
+
+.container span {
+   
+    color: #fff;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav{
+    background-color: rgb(70, 165, 26);
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    position: relative;
+
+}
+
+#bc1, .btn {
+        display:none ;
+    }
+
+label.logo {
+    color:ghostwhite;
+    float: left;
+    font-size: 35px;
+    padding: 0 5%;
+    line-height: 60px;
+    font: weight;
+
+}
+
+ul{
+    float: left;
+}
+
+ul li {
+    display:inline-block;
+    list-style: none;
+
+}
+
+ul li a {
+color: ghostwhite;
+line-height: 60px;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+text-decoration:none ;
+padding: 0 15px;
+}
+
+ul li:hover {
+    background-color: rgba(175, 174, 174, 0.89);
+}
+
+@media(max-width:1052px) {
+    nav {
+        width:100%;
+    }
+    ul{
+      position: fixed;
+      width: 300px;
+      background-color:rgba(175, 174, 174, 0.89);
+      height: 60vh;
+      text-align: center;
+      transition: all .6s;
+      top:-800px;
+    }
+
+    ul li{
+        display: block;
+        padding: 6px 0;
+    }
+    ul li:hover {
+        background: none;
+    }
+
+    ul li a:hover{
+        color: rgb(70, 165, 26) ;
+    }
+
+    label.logo{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+ .btn {
+     position: absolute;
+     display: block;
+     width: 70px;
+     left: 5%;
+     color: ghostwhite;
+     font-size: 16px;
+     font-weight: 600;
+     text-align: center;
+     line-height: 60px;
+     cursor: pointer;
+     z-index: 20;
+ }
+
+ #bc1:checked ~ ul{
+     top:60px;
+    
+    }
+
+    
+
+}
+
+@media(max-width:652px){
+  ul{
+      width:100%;
+  }
+}

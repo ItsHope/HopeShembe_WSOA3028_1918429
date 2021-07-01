@@ -4,10 +4,23 @@
 
 header{
 
-    background-color: white;
+    background-color:none;
     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: black;
+}
+
+
+
+.subbar li a {
     text-decoration: none;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -71,7 +84,10 @@ body{
 
 .main-bar i {
     margin-right: 5px;
+
 }
+
+
 
 .main-bar > li:hover:not(.active) {
     background: linear-gradient(to right, var(--green-color), var(--blue-color));
@@ -121,6 +137,7 @@ h1 {
     padding: 0;
     min-width: calc(3.5 * var(--menu-item-size) - 5%);
     box-shadow: 5px 5px 5px #CCC;
+   
 }
 
 .with-subbar {
@@ -142,6 +159,7 @@ h1 {
     transition: 0.3s all linear;
     display: block;
     line-height: 0%;
+    text-decoration: none;
 }
 
 .subbar > li:hover {
@@ -193,6 +211,7 @@ main{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
  }
+
 
 
 

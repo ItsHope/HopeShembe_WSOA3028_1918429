@@ -12,10 +12,17 @@
  background-color: white;
  border-radius: 50%;
 color: black;
-font-size: 10px;
+font-size: 20px;
+cursor: pointer;
 top:50%;
 margin-top: -20px;
+text-align: center;
+line-height: 40px;
+}
 
+
+.slider .left-slide:hover, .slider .right-slide:hover {
+background-color: chartreuse;
 }
 .slider .left-slide {
 
