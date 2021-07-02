@@ -2,24 +2,14 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    cursor: default;
+    
 }
 
 html, body{
     font-family: 'Times New Roman', Times, serif;
     height: 100%;
 }
-.container {
-    height: 100%;
-    background-image: url("/images/pexels-asa-dugger-1897590\ \(2\).jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover ;
-    background-attachment: fixed;
-    
 
-
-}
 
 .container span {
    
@@ -124,7 +114,7 @@ ul li:hover {
      font-weight: 600;
      text-align: center;
      line-height: 60px;
-     cursor: default;
+     cursor:default;
      z-index: 20;
  }
 
@@ -141,4 +131,14 @@ ul li:hover {
   ul{
       width:100%;
   }
+}
+
+
+footer{
+    background-color:white;
+    color:black;
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    bottom: 0%;
 }
