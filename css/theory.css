@@ -155,11 +155,24 @@ body,html{
 #BlogEight{
     background-color:rgb(28, 156, 103);
 }
-#HBlogNine{
+#BlogNine{
     background-color:rgb(74, 124, 85) ;
 }
 #BlogTen{
     background-color:rgb(30, 192, 138) ;
+}
+
+#BlogEleven{
+    background-color:rgb(23, 71, 55) ;
+}
+#BlogTwelve{
+    background-color:rgb(15, 109, 36) ;
+}
+#BlogThirteen{
+    background-color:rgb(47, 190, 90) ;
+}
+#BlogFourteen{
+    background-color:rgb(46, 134, 192) ;
 }
 
 footer{
